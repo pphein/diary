@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteBase /
+RewriteCond %{REQUEST_URI} ^\/(user\/|dummy)\/.*$
+RewriteRule !^((.*.php)|(.*\/))$ index.php

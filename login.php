@@ -1,14 +1,25 @@
 <?php
-session_start();
-$id = $_POST['id'];
-$password = $_POST['password'];
-if($id == "admin" && $password == "123") {
-$_SESSION['auth'] = true;
-$_SESSION['id'] = "Admin";
-header("location: diary.php");
-}else{
+	session_start();
+	include "config.php";
 
+	$email = $_POST['email'];
+	$password = md5($_POST['password']);
 
-header("location: index.php");
-}
+	$check = mysqli_query($conn, "SELECT * FROM user WHERE email = '$email'AND password = '$password'");
+	$result = mysqli_fetch_assoc($check);
+
+	if($result){
+
+		$_SESSION['auth'] = true;
+		$_SESSION['id'] = $result['ID'];
+		$_SESSION['name'] = $result['name'];
+		$_SESSION['email'] = $result['email'];
+
+		echo $_SESSION['id']. $_SESSION['name'].$_SESSION['email'];
+		header("location: user/diary.php");
+
+	}else{
+		$_SESSION['error'] = "Invalid Email and password";
+		header("location: login-form.php");
+	}
 ?>

@@ -1,10 +1,6 @@
-<?php
-include_once ("config.php"); 
- ?>
-
- <!DOCTYPE html>
- <meta utf="8" lang="myan">
- <html>
+<!DOCTYPE html>
+<meta utf="8" lang="myan">
+<html>
  	<head>
  		<title>MyDiary</title>
  		<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -13,57 +9,35 @@ include_once ("config.php");
 
  		<div class="header">
 			<ul class="menu">
-
-				<li>
-					<a href="#">Diary</a>
-				</li>
-				<li>
-					<a href="#">Post</a>
-				</li>
-				<li>
-					<a href="#">Photos</a>
-				</li>
-				<li>
-					<a href="login-form.php">Login</a>
-				</li>
-				<li>
-					<a href="signup.php">Sign Up</a>
-				</li>
-			</ul>	
-
+				<center>						
+						<a href="index.php">Diary</a>
+				</center>			
+			</ul>
 		</div>
 
- 		 <div class=main-body>
- 		 	
- 		 	<div class="left-menu">
-
-				<ul class="list">
-
+ 		<div class=main-body> 		 	
+ 		 	<div class="content">
+				<h1>Welcome To Diary</h1>	
+				<center>
+					<h3>First at all, Please  Sign up or log in!</h3>
+				</center>	
+					
+				<ul class="login">
 					<li>
-						<a href="#">Compose</a>
+						<a href="<?php echo "../signup.php"; ?>">Sign Up</a>
 					</li>
 					<li>
-						<a href="#">To Do Lists</a>
+						<a href="../login-form.php">Log in </a>
 					</li>
-					<li>
-						<a href="#">Song</a>
-					</li>
-					<li>
-						<a href="#">Books</a>
-					</li>
+				</ul> 
+			</div>		 		
+ 		 </div> 		 
 
-				</ul>	
+		<div class="footer">
+			<center>
+				<h3>Copyright <?php echo date('Y'); ?></h3>		
+			</center>
+		</div>
 
-			 </div>
- 		 		
-			<?php include ("content.php"); ?>
-	
- 		 </div>
- 		 
-
-		<?php include ("footer.php"); ?>
- 	
  	</body>
- </html> 
-
- 
+</html> 
