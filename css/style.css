@@ -1,418 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
 html {
-	background: #95a5a6;
+    background: #95a5a6;
 }
 
 body {
-	font-family: Arial, Helvetica, sans-serif;
-	width: 900px;
-	min-height: 250px;
-	background: #abc;
-	border: 4px solid #2c3e50;
-	margin: 20px auto;
+    font-family: 'Padauk', sans-serif;
+    width: 900px;
+    min-height: 250px;
+    background: #abc;
+    border: 4px solid #2c3e50;
+    margin: 20px auto;
 }
+
 
 /*Header File*/
 
 div.header {
-	background-color: lightblue;
-	margin-top: 0px;
-	padding-top: 1px;
+    background-color: lightblue;
+    margin-top: 0px;
+    padding-top: 1px;
 }
 
 div.header ul.menu {
-	list-style: none;
-	margin: -1px;
-	padding: 10px;
-	overflow: hidden;
-	background: #16ad85;
+    list-style: none;
+    margin: -1px;
+    padding: 10px;
+    overflow: hidden;
+    background: #16ad85;
 }
 
 div.header ul.menu li {
-	float: left;
-	border-right: 1px solid #1abc9c;
-	font-size: 20px;
+    float: left;
+    border-right: 1px solid #1abc9c;
+    font-size: 20px;
 }
+
 div.header ul.menu li img {
-	width: 60px;
-	border-right: 1px solid #1abc9c;
-	border-radius: 50%;
+    width: 60px;
+    border-right: 1px solid #1abc9c;
+    border-radius: 50%;
 }
 
 div.header ul.menu a {
-	display: block;
-	padding: 10px 20px;
-	text-decoration: none;
-	color: #fff;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
 }
 
 div.header ul.menu a:hover {
-	background: #1abc9c;
+    background: #1abc9c;
 }
+
 
 /*Main Body*/
 
 div.main-body {
-	margin-top: 0px;
-	padding-top: 1px;
-
+    margin-top: 0px;
+    padding-top: 1px;
 }
 
 
 /*Left Menu*/
 
 div.left-menu {
-	background-color: #2c3e50;
-	margin-top: 0px;
-	padding-top: 1px;
-	border: 4px solid #2c3e50;
-	font-size: 16px;
-		
+    background-color: #2c3e50;
+    margin-top: 0px;
+    padding-top: 1px;
+    border: 4px solid #2c3e50;
+    font-size: 16px;
 }
 
 div.left-menu ul.list {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background: #2c3e50;
-	border: 4px solid #2c3e50;
-	float: left;	
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #2c3e50;
+    border: 4px solid #2c3e50;
+    float: left;
 }
 
 div.left-menu ul.list li {
-	border-bottom: 1px solid #1abc9c;
+    border-bottom: 1px solid #1abc9c;
 }
 
 div.left-menu ul.list a {
-	text-decoration: none;
-	display: block;
+    text-decoration: none;
+    display: block;
     padding: 10px 20px;
     text-decoration: none;
     color: #fff;
 }
 
 div.left-menu ul.list a:hover {
-	background: #1abc9c;
+    background: #1abc9c;
 }
+
 
 /*Content*/
 
-div.content{
-	font-family: Arial, Helvetica, sans-serif;
-	
-	background: #abc;
-	border: 4px solid #2c3e50;
-	margin: 0px auto;
-	min-height: 160px;
-
-	
-	
+div.content {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #abc;
+    border: 4px solid #2c3e50;
+    margin: 0px auto;
+    min-height: 160px;
 }
 
 div.content h1 {
-	text-align: center;
-	
-	font-size: 21px;
-	background: #2c3e50;
-	
-	color: #fff;
+    text-align: center;
+    font-size: 21px;
+    background: #2c3e50;
+    color: #fff;
 }
 
-div.content p {
-	
-}
-
-
+div.content p {}
 
 div.content ul.menu li {
-	float: left;
-	background-color: #2c3e50;
-	border-right: 1px solid #1abc9c;
-	margin-left: 220px;
-	list-style: none;
+    float: left;
+    background-color: #2c3e50;
+    border-right: 1px solid #1abc9c;
+    margin-left: 220px;
+    list-style: none;
 }
 
-
 div.content ul.menu a {
-	display: block;
-	padding: 10px 20px;
-	text-decoration: none;
-	color: #fff;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
 }
 
 div.content ul.menu a:hover {
-	background: #1abc9c;
+    background: #1abc9c;
 }
 
-div.content .post ul{
-	padding: 0px 60px;
-	font-size: 16px;
-margin-left: 130px;
-text-align: justify;
-list-style: none;
-
+div.content .post ul {
+    padding: 0px 60px;
+    font-size: 16px;
+    margin-left: 130px;
+    text-align: justify;
+    list-style: none;
 }
 
 div.content ul.login li {
-	float: left;
-	background-color: #2c3e50;
-	border-right: 1px solid #1abc9c;
-	margin-left: 220px;
-	list-style: none;
+    float: left;
+    background-color: #2c3e50;
+    border-right: 1px solid #1abc9c;
+    margin-left: 220px;
+    list-style: none;
 }
 
-
 div.content ul.login a {
-	display: block;
-	padding: 10px 20px;
-	text-decoration: none;
-	color: #fff;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
 }
 
 div.content ul.login a:hover {
-	background: #1abc9c;
+    background: #1abc9c;
 }
 
-
-div.content   img{
-height: 300px;
-width: 210px;
-margin-left: 9px;
+div.content img {
+    height: 300px;
+    width: 210px;
+    margin-left: 9px;
     margin-top: 9px;
     float: left;
-
-}
 }
 
+
+}
 div.photo {
-
     width: 266px;
-
 }
-
-div.photo	ul{
-	list-style: none;
-
+div.photo ul {
+    list-style: none;
     padding: 10px;
     margin: 40px;
 }
-
 button {
-
-    
     height: 30px;
     width: 200px;
     margin-left: 15px;
     padding: 0px;
 }
-
-div.photo ul li img{
-	padding: 21px;
+div.photo ul li img {
+    padding: 21px;
+}
+div.footer {
+    text-align: right;
 }
 
-
-
-
-
-div.footer{
-	text-align: right;
-}
 /*old code*/
-
 h1 {
-	text-align: center;
-	padding: 10px;
-	font-size: 21px;
-	background: #2c3e50;
-	margin: 0;
-	color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 21px;
+    background: #2c3e50;
+    margin: 0;
+    color: #fff;
 }
-
 form {
-	margin: 30px 300px;
-	text-align: left;
+    margin: 30px 300px;
+    text-align: left;
 }
-
 form label {
-	display: block;
-	margin-top: 10px;
-
-	color: #555;
+    display: block;
+    margin-top: 10px;
+    color: #555;
 }
-
 input[type=text],
 input[type=password],
 textarea,
 select {
-	font-family: Arial, Helvetica, sans-serif;
-	border: 1px solid #ddd;
-	padding: 6px;
-	width: 300px;
-	background: #fff;
-	height: 35px;
-	border-radius: 10px;
-	border-color: #2c3e50;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #ddd;
+    padding: 6px;
+    width: 300px;
+    background: #fff;
+    height: 35px;
+    border-radius: 10px;
+    border-color: #2c3e50;
 }
-
 textarea {
-	height: 100px;
+    height: 100px;
 }
-
 input[type=submit] {
-	padding: 15px 32px;
+    padding: 15px 32px;
     margin-right: 10px;
     color: white;
     background: #1abc9c;
     border: none;
     border-radius: 10px;
-
-}
 }
 
+}
 li {
-	list-style: none;
+    list-style: none;
 }
-
-
-
-div.bottom{
-	height: max-content;
-
-
-
-width: 300px;
-
-margin: 10px;
-
-padding: 35px;
+div.bottom {
+    height: max-content;
+    width: 300px;
+    margin: 10px;
+    padding: 35px;
 }
-
-div.bottom button{
-	
-	width: 520px;
-
-margin-left: 138px;
-
-margin-top: 30px;
+div.bottom button {
+    width: 520px;
+    margin-left: 138px;
+    margin-top: 30px;
 }
-
-
-.pic{
-	position: relative;
-	display: inline-block;
-	float: left;
+.pic {
+    position: relative;
+    display: inline-block;
+    float: left;
 }
-
-.pic:hover .edit{
-	display: block;
-
+.pic:hover .edit {
+    display: block;
 }
-
-
-
-.edit a{
-	color: #000;
+.edit a {
+    color: #000;
 }
-
-.list{
-	position: relative;
-	display: inline-block;
-	
+.list {
+    position: relative;
+    display: inline-block;
 }
-
-.list:hover .edit{
-	display: block;
-
+.list:hover .edit {
+    display: block;
 }
-
-.usrlist{
-	text-align: left;
-
-margin-top: 116px;
-
-margin-left: 145px;
-
-padding: 0px 70px;
+.usrlist {
+    text-align: left;
+    margin-top: 116px;
+    margin-left: 145px;
+    padding: 0px 70px;
 }
-
 button:hover {
-	color: white;
-	background-color: #2c3e50;
+    color: white;
+    background-color: #2c3e50;
 }
-
-.edit	{
-	right: -290px;
-	position: absolute;
-	
-	display: none;
+.edit {
+    right: -290px;
+    position: absolute;
+    display: none;
 }
-
 .edit input[type=submit] {
-	
     color: black;
     background: red;
     border: none;
     border-radius: 500px;
     opacity: 65%;
-
 }
-
-.pic:hover .edit{
-	display: block;
-
+.pic:hover .edit {
+    display: block;
 }
 
 /*for list*/
-
-.pic{
-	position: relative;
-	display: inline-block;
-	float: left;
+.pic {
+    position: relative;
+    display: inline-block;
+    float: left;
 }
-
-.pic:hover .editlist{
-	display: block;
-
+.pic:hover .editlist {
+    display: block;
 }
-
-.editlist	{
-	padding-top: 7px;
-	padding-right: 7px;
-	position: absolute;
-	right: 0;
-	top: 0;
-	display: none;
+.editlist {
+    padding-top: 7px;
+    padding-right: 7px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
 }
-
-.editlist a{
-	color: #000;
+.editlist a {
+    color: #000;
 }
-
-.list{
-	position: relative;
-	display: inline-block;
-	
+.list {
+    position: relative;
+    display: inline-block;
 }
-
-.list:hover .editlist{
-	display: block;
-
+.list:hover .editlist {
+    display: block;
 }
-
-.usrlist{
-	text-align: left;
-
-margin-top: 116px;
-
-margin-left: 145px;
-
-padding: 0px 70px;
+.usrlist {
+    text-align: left;
+    margin-top: 116px;
+    margin-left: 145px;
+    padding: 0px 70px;
 }
-
-form.compose{
-	    margin: 30px 180px;
+form.compose {
+    margin: 30px 180px;
     text-align: left;
     width: 620px;
 }
-
-
