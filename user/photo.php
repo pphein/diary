@@ -6,8 +6,8 @@
 	<h1>Your Photos are here:</h1>
 	<center>
 		<?php
-		echo $_SESSION['msg'];
-		unset($_SESSION['msg']);
+		// echo $_SESSION['msg'];
+		// unset($_SESSION['msg']);
 		?>
 	</center>
 	<form action="upload-photo.php" method="post" enctype="multipart/form-data">

@@ -27,7 +27,7 @@ if (isset($_POST['submit'])) {
                 $fileName = $i . $fileName;
             $targetFilePath = $targetDir . $fileName;
             $fileType = pathinfo($targetFilePath, PATHINFO_EXTENSION);
-
+            $insertValuesSQL = '';
             if (in_array($fileType, $allowTypes)) {
                 // Upload file to server
                 if (move_uploaded_file($_FILES["files"]["tmp_name"][$key], $targetFilePath)) {

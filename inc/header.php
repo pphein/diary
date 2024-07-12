@@ -3,7 +3,7 @@
 session_start();
 $auth = isset($_SESSION['auth']);
 
-include_once("config.php");
+include_once("../config.php");
 
 if ($auth == false) {
 	header("location: ../index.php");
